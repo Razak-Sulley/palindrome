@@ -9,9 +9,9 @@ function check() {
   const reverse = reverseString(value);
 
   if (value === reverse) {
-    alert("this is a palindrome");
+    alert("This is a palindrome");
   } else {
-    alert("not a palindrome");
+    alert("Not a palindrome");
   }
   input.value = "";
 }
